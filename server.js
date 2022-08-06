@@ -14,13 +14,6 @@ app.use(express.json());
 app.use('/api', apiRoutes);
 
 
-
-
-
-
-
-
-
 //default catch-all for any other request (not found)
 app.use((req, res) => {
     res.status(404).end();
